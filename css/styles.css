@@ -14,6 +14,7 @@
 }
 
 
+
 .nav-item {
   font-size: 1.5rem;
   margin-left: 30px;
@@ -29,17 +30,23 @@ ul.navbar-nav a:hover {
 
 /* title section */
 
-#title-section{
-  font-family: Montserrat;
-  background-color: #FD3A69;
-  text-align: center;
-  padding: 8% 7%
+
+.gif-icon {
+  width: 100%;
+  height: 460px;
+}
+
+@media (max-width:850px){
+  .gif-icon {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .title-image {
   width: 80%;
   transform: rotate(25deg);
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 h1 {
